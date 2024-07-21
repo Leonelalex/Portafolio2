@@ -34,7 +34,9 @@ export default {
 }
 
 .mainFoto {
-  width: 35%;
+  width: 45%;
+  min-width: 550px;
+  max-width: 750px;
 }
 
 .logoLR {
@@ -53,15 +55,72 @@ export default {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mainFoto {
+    width: 40%;
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainFoto {
+    width: 85%;
+    min-width: unset;
+  }
+
+  .logoLR {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 5px;
+    left: 5px;
+  }
+
+  .titleBlock {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
 }
 </style>

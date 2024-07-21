@@ -1,5 +1,5 @@
 <template>
-  <h1>Proyectos</h1>
+  <h1>Experience</h1>
 </template>
 
 <style scoped>

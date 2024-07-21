@@ -64,4 +64,35 @@ body {
     display: flex;
   }
 }
+
+@media (max-width: 768px) {
+  #app {
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .mainPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+
+  .menu {
+    height: 100px;
+    width: 100%;
+    max-width: none;
+    background-color: black;
+  }
+}
 </style>
